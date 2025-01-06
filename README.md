@@ -144,5 +144,5 @@ Just give a star to this repo.
 This project is licensed under the [MIT License](LICENSE).
 
 --- 
-
+SHEMA FRANK
 Enjoy building your School Management Dashboard! 🎓
