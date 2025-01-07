@@ -18,6 +18,7 @@ const BigCalendar = ({
     setView(selectedView);
   };
 
+ 
   return (
     <Calendar
       localizer={localizer}
