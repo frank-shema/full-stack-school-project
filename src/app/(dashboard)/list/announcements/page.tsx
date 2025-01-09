@@ -20,7 +20,6 @@ const AnnouncementListPage = async ({
   const role = (sessionClaims?.metadata as { role?: string })?.role;
   const currentUserId = userId;
   
-  this is the world 
   const columns = [
     {
       header: "Title",

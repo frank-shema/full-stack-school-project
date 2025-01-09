@@ -16,7 +16,6 @@ type AssignmentList = Assignment & {
   };
 };
 
-this is the world 
 const AssignmentListPage = async ({
   searchParams,
 }: {
