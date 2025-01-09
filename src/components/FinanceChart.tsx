@@ -122,4 +122,6 @@ const FinanceChart = () => {
   );
 };
 
+
+
 export default FinanceChart;
