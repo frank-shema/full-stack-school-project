@@ -32,6 +32,9 @@ const deleteActionMap = {
 };
 
 
+// this is the world in the multiverse of the madnes 
+
+// the comments are crazy 
 // USE LAZY LOADING
 
 // import TeacherForm from "./forms/TeacherForm";
