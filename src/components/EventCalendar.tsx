@@ -23,6 +23,4 @@ const EventCalendar = () => {
   return <Calendar onChange={onChange} value={value} />;
 };
 
-
-
 export default EventCalendar;

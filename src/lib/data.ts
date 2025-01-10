@@ -15,6 +15,7 @@ export const teachersData = [
     classes: ["1B", "2A", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 2,
     teacherId: "1234567890",
