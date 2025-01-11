@@ -28,8 +28,25 @@ const TableSearch = () => {
         className="w-[200px] p-2 bg-transparent outline-none"
       />
     </form>
-    
+
   );
+
+  
 };
 
 export default TableSearch;
+
+
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Current Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+export default Counter;

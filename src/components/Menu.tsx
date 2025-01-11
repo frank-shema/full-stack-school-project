@@ -24,6 +24,23 @@ const menuItems = [
         href: "/list/students",
         visible: ["admin", "teacher"],
       },
+      import React, { useState } from 'react';
+
+function App() {
+  const [count, setCount] = useState(0); // State
+  return (
+    <div>
+      <Child count={count} /> {/* Passing props */}
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+
+function Child({ count }) {
+  return <p>Count passed as a prop: {count}</p>;
+}
+export default App;
+
       
       {
         icon: "/parent.png",

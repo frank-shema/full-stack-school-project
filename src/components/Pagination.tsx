@@ -14,6 +14,11 @@ const Pagination = ({ page, count }: { page: number; count: number }) => {
     params.set("page", newPage.toString());
     router.push(`${window.location.pathname}?${params}`);
   };
+  function Greeting() {
+    return <h1>Hello, React!</h1>;
+  }
+  export default Greeting;
+  
   return (
     <div className="p-4 flex items-center justify-between text-gray-500">
       <button
