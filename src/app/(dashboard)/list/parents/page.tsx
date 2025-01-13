@@ -9,7 +9,9 @@ import Image from "next/image";
 
 import { auth } from "@clerk/nextjs/server";
 
+
 type ParentList = Parent & { students: Student[] };
+
 
 const ParentListPage = async ({
   searchParams,
@@ -50,6 +52,7 @@ const columns = [
       ]
     : []),
 ];
+
 
 const renderRow = (item: ParentList) => (
   <tr

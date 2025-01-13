@@ -106,7 +106,9 @@ const renderRow = (item: ResultList) => (
 
   // URL PARAMS CONDITION
 
+
   const query: Prisma.ResultWhereInput = {};
+
 
   if (queryParams) {
     for (const [key, value] of Object.entries(queryParams)) {
@@ -127,6 +129,7 @@ const renderRow = (item: ResultList) => (
       }
     }
   }
+
 
   // ROLE CONDITIONS
 
@@ -152,6 +155,7 @@ const renderRow = (item: ResultList) => (
     default:
       break;
   }
+
 
   const [dataRes, count] = await prisma.$transaction([
     prisma.result.findMany({
@@ -205,6 +209,7 @@ const renderRow = (item: ResultList) => (
     };
   });
 
+
   return (
     <div className="bg-white p-4 rounded-md flex-1 m-4 mt-0">
       {/* TOP */}
@@ -232,5 +237,6 @@ const renderRow = (item: ResultList) => (
     </div>
   );
 };
+
 
 export default ResultListPage;
