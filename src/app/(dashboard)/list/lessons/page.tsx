@@ -12,6 +12,7 @@ type LessonList = Lesson & { subject: Subject } & { class: Class } & {
   teacher: Teacher;
 };
 
+this issi si sokwokeodjodkofdisfj
 
 const LessonListPage = async ({
   searchParams,

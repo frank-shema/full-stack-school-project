@@ -10,6 +10,7 @@ import { auth } from "@clerk/nextjs/server";
 
 type EventList = Event & { class: Class };
 
+
 const EventListPage = async ({
   searchParams,
 }: {
